@@ -1,0 +1,9 @@
+# IntelliJ Ignores:
+*/.idea/workspace.xml
+*/.idea/tasks.xml
+*/.iws
+
+# Ignore directories and their content. 
+*/.idea/libraries/**
+*/.idea/dictionaries/**
+*/target/**
