@@ -101,7 +101,7 @@ header {
     margin: 0 auto;
 }
 
-#carousel > figure > img .visible {
+#carousel > figure.visible > img {
     display: block;
     position: relative;
     overflow: hidden;
@@ -111,7 +111,7 @@ header {
     display: none
 }
 
-#carousel > figure > figcaption .visible {
+#carousel > figure.visible > figcaption {
     display: block;
     text-align: center;
     font-weight: bold;
