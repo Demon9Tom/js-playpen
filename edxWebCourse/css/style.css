@@ -96,3 +96,27 @@ header {
     font-family: "Contail One", serif;
 }
 
+#carousel > figure > img {
+    display: none;
+    margin: 0 auto;
+}
+
+#carousel > figure > img .visible {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel > figure > figcaption {
+    display: none
+}
+
+#carousel > figure > figcaption .visible {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
